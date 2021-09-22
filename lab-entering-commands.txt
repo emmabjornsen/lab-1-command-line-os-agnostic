@@ -28,18 +28,18 @@ What happens?  Describe it below.
 ----------
 Desktop/    Documents/  Downloads/
 
-
+Each folder that starts with the letter 'D' was pulled up
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-rdrgeerwtger yg erwy brg
 
+Desktop/   Documents/ Downloads/ 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
-
+ls: cannot access 'D': No such file or directory
 
 ==========
 3.  Type:
@@ -49,7 +49,9 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+total 41
+drwxr-xr-x 1 emmab 197614   0 Jul 12 23:36  Adobe/
+drwxr-xr-x 1 emmab 197614   0 Sep 20 18:01  Arduino/
 
 ==========
 4.  Type:
@@ -60,6 +62,7 @@ Copy and paste the first *two lines* of output below.
 ----------
 
 
+ ./   ../   Adobe/   Arduino/   desktop.ini  'My Music'@  'My Pictures'@  'My Videos'@   Overwatch/  'SparkleStock Dreamy Night'/   Zoom/
 
 ==========
 5.  Type:
@@ -69,7 +72,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-
+$ ls -a Documents
 
 ==========
 6.  Type:
@@ -79,7 +82,7 @@ What command was repeated?
 What command was repeated?
 ----------
 
-
+$ ls -a Documents
 
 ==========
 7.  Type:
@@ -89,7 +92,7 @@ $ ls /b<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+All of my system's .exe files were pulled up
 
 ==========
 8.  Type:
@@ -99,37 +102,37 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+<UP>
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+D, -a
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+<TAB>
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+$ ls or list contents
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+Documents
 
 ==========
 14.  Type:
@@ -139,7 +142,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+bash: foo: command not found
 
 ==========
 15.  Type:
@@ -149,7 +152,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -158,3 +161,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+Command: ls flag: -a arguemnt: Desktop prompt: <enter>
